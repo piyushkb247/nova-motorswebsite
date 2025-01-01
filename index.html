@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOVA MOTORS - Trusted Parts for Cars, Trucks, and Commercial Vehicles!</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function submitForm() {
+      alert('Thank you for contacting us! We will get back to you soon.');
+      document.getElementById('contactForm').reset();
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>NOVA MOTORS</h1>
+      <p>Trusted Parts for Cars, Trucks, and Commercial Vehicles!</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <div class="container">
+      <h2>Welcome to NOVA MOTORS</h2>
+      <p>Your one-stop shop for high-quality spare parts for all types of vehicles!</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Located at Tower Chowk, Dhudhani, Dumka, Jharkhand, we specialize in providing reliable spare parts for cars, trucks, and commercial vehicles. Customer satisfaction is our priority.</p>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="container">
+      <h2>Our Products</h2>
+      <ul>
+        <li>Engine Parts</li>
+        <li>Braking Systems</li>
+        <li>Suspension and Steering</li>
+        <li>Electrical Components</li>
+        <li>Lubricants and Oils</li>
+        <li>Accessories and Tools</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm" onsubmit="event.preventDefault(); submitForm();">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Send</button>
+      </form>
+      <p>Email: piyushkumarbhagat2472002@gmail.com</p>
+      <p>Phone: 6205476735, 9431178617, 9771726457</p>
+      <p>Address: Tower Chowk, Dhudhani, Dumka, Jharkhand, 814101</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 NOVA MOTORS. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
